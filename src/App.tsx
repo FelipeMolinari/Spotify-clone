@@ -1,9 +1,13 @@
 import React from 'react';
-import GlobalStyle from './styles/global'
+import SideBar from './components/Sidebar';
+import GlobalStyle from './styles/global';
 function App() {
-	return <GlobalStyle>
-    <div className="App" />
-    </GlobalStyle>;
+  return (
+    <>
+      <GlobalStyle />
+      <SideBar />
+    </>
+  );
 }
 
 export default App;
