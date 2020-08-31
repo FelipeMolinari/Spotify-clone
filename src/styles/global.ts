@@ -1,4 +1,5 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
+import 'rc-slider/assets/index.css';
 
 const GlobalStyle = createGlobalStyle`
 * {
@@ -19,6 +20,6 @@ body{
   background: #181818;
   font-family: 'Montserrat', sans-serif;
 }
-`
+`;
 
 export default GlobalStyle;
